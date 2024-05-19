@@ -10,6 +10,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 @ComponentScan("by.itclass.controllers")
 public class AppConfig {
 
+
     @Bean
     public ViewResolver viewResolver() {
         var resolver = new InternalResourceViewResolver();
